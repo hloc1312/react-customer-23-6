@@ -1,0 +1,81 @@
+.trai_kh{
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 10px;
+}
+.kh_font{
+    font-size: 16px;
+}
+.container-fluid{
+    margin-bottom: 125px;
+}
+.vouchers-kh{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left:0;
+}
+.vouchers-kh li {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    transform: scale(1);
+    transition: all 0.5s;
+    width: 304px;
+    min-height: 280px;
+    margin:20px 11px;
+}
+.vouchers-kh li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.voucher-kh {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.vc-img-kh{
+    width: 304px;
+    height: 152px;
+}
+.vc-name-kh{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.vc-ngaybd-kh{
+    font-size: 15px;
+    color: #808080;
+    margin-left: 8px;
+}
+.vc-ngaymua-kh{
+    font-size: 15px;
+    
+    margin-left: 8px;
+}
+.vc-gia-kh{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ee4d2d;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+.text-ls-kh{
+    background: #fed53f;
+    padding: 8px 86px;
+    color: #000;
+    text-transform: uppercase;
+    transition: all .5s;
+    border: none;
+}
+.kh_btn_ls{
+    text-align: center;
+    
+}
+.text-ls-kh:hover{
+    background: #fed53f;
+    border: 1px #000 solid;
+    color: #000;
+}
